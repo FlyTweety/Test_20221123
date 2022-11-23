@@ -9,9 +9,8 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
 
-        String b = "${java:os}";
-        //this is a new version
-        logger.error(b);
+        String  c= "${java:os}";
+        logger.info(c);
 
     }
 }
